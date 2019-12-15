@@ -1,10 +1,19 @@
 import React from 'react';
+import Footer from "./components/Home Page/Footer";
+import './components/Home Page/Footer/index.css'
 
 function App() {
+    const pList = [['CONTACT', 'HOW TO PURCHASE', 'PAYMENT'], ['Facebook', 'instagram', "Pinterest"], ['History', 'Policy', "Work with US"]];
     return (
-        <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis magni perferendis?</p>
-       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cumque laborum mollitia necessitatibus provident quas quidem quo ratione rerum sed? Fuga maxime suscipit veniam. Cum dolorem est nemo tempore ullam.
+        <div className="footer">
+            {
+                pList.map((p) => {
+                    console.log(p);
+                    return <Footer
+                        listOfparagraphs={p}
+                    />
+                })
+            }
         </div>
     )
 }
