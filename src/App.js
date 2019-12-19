@@ -4,6 +4,7 @@ import './components/Home Page/ListOfProducts/index';
 import './components/Home Page/ListOfProducts/ItemOfProducts/index';
 import './components/Home Page/Footer/reset.scss';
 import './components/Home Page/Footer/index.scss';
+import './components/Home Page/ListOfProducts/ItemOfProducts/index.scss';
 import ListOfProducts from "./components/Home Page/ListOfProducts";
 
 function App() {

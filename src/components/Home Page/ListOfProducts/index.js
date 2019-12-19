@@ -72,7 +72,7 @@ class ListOfProducts extends React.Component{
         //         // {all = result.date };//baxarsan
         //     });
         return(
-            <div >
+            <div className="products__container">
 
 
 
