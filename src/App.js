@@ -1,7 +1,10 @@
 import React from 'react';
 import Footer from "./components/Home Page/Footer";
-import './components/Home Page/Footer/reset.scss'
-import './components/Home Page/Footer/index.scss'
+import './components/Home Page/ListOfProducts/index';
+import './components/Home Page/ListOfProducts/ItemOfProducts/index';
+import './components/Home Page/Footer/reset.scss';
+import './components/Home Page/Footer/index.scss';
+import ListOfProducts from "./components/Home Page/ListOfProducts";
 
 function App() {
     const elements = [{
@@ -32,7 +35,9 @@ function App() {
             all={elements}
             class_name="footer"
         />
-        </div>
+        <ListOfProducts/>
+    </div>
+
     )
 }
 
