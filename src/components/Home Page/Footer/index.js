@@ -1,7 +1,5 @@
 import React from "react";
 
-/// >> ??? burda h2 ve p elementleri olan dive nece classname elave edim _:(
-
 class Footer extends React.Component{
     render() {
         const {all ,/*listOfparagraphs , */class_name} = this.props;
