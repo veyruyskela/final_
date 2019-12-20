@@ -23,11 +23,12 @@ html{
 
     &-header{
       text-transform: uppercase;
+      font-family: Montserrat;
       font-size: 2rem;
       display: inline-block;
       font-weight: 600;
       text-decoration: none;
-      color: powderblue;
+      color: white;
       margin-bottom: 1rem;
      }
      &-content{
@@ -42,7 +43,9 @@ html{
 
   &__content{
     &-text{
+      font-family: monospace;
       font-size: 1.4rem;
+      color: #bbbbbb;
       margin: 1.2rem 0;
     }
   }
@@ -51,7 +54,8 @@ html{
 
 .active{
   display: block;
-  &:hover {
-    color:bisque;
-  }
+}
+
+.footer__content-text:hover {
+  color: #bb77ff;
 }

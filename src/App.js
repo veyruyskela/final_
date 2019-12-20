@@ -33,11 +33,12 @@ function App() {
 
     return (
     <div>
+        <ListOfProducts/>
         <Footer
             all={elements}
             class_name="footer"
         />
-        <ListOfProducts/>
+
     </div>
 
     )
