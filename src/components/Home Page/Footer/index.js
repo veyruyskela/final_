@@ -43,6 +43,7 @@ class Footer extends React.Component{
             </div>
         );
         function handler(e){
+            e.preventDefault();
             console.log(e.target.parentNode.children[1]);
             e.target.parentNode.children[1].classList.toggle("active");//setActive === "" ? "active" : "");
         }
