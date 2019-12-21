@@ -29,18 +29,13 @@ function App() {
         header: "Help"
     }];
 
-    // const pList = [['CONTACT', 'HOW TO PURCHASE', 'PAYMENT'], ['Facebook', 'instagram', "Pinterest"], ['History', 'Policy', "Work with US"]];
-
     return (
     <div>
         <ListOfProducts/>
         <Footer
             all={elements}
-            class_name="footer"
-        />
-
+            class_name="footer"/>
     </div>
-
     )
 }
 

@@ -1,6 +1,5 @@
 import React from "react";
 
-
 class ItemOfProducts extends React.Component{
 
     render() {

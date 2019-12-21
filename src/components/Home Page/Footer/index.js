@@ -3,25 +3,6 @@ import React from "react";
 class Footer extends React.Component{
     render() {
         const {all ,/*listOfparagraphs , */class_name} = this.props;
-        // return(
-        //     <div className={class_name}>
-        //         <h2>HELP</h2>
-        //         {/*<p>CONTACT</p>*/}
-        //         {/*<p>HOW TO PURCHASE</p>*/}
-        //         {/*<p>PAYMENT</p>*/}
-        //         {/*<p>{listOfparagraphs}</p>*/}
-        //         {
-        //             console.log(listOfparagraphs)
-        //         }
-        //         {
-        //             listOfparagraphs.map((tag, index)=>{ //niye forEach islemedi? //hemcinin index olmayanda niye xeta veriR?
-        //                 // console.log(tag);
-        //                     return <p key={index} className="footer-p">{tag}</p>
-        //             })
-        //         }
-        //     </div>
-        // )
-
         return(
             <div className="footer">
                 {
@@ -45,7 +26,7 @@ class Footer extends React.Component{
         function handler(e){
             e.preventDefault();
             console.log(e.target.parentNode.children[1]);
-            e.target.parentNode.children[1].classList.toggle("active");//setActive === "" ? "active" : "");
+            e.target.parentNode.children[1].classList.toggle("active");
         }
     }
 }

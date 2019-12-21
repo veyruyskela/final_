@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 
-html{
+html {
   font-size: 10px;
 }
 
-.footer{
+.footer {
   font-family: 'Montserrat', sans-serif;
   background-color: #333333;
   display: flex;
@@ -14,14 +14,11 @@ html{
   text-align: center;
   font-size: 1.6rem;
   align-items: center;
-  //height: 400px;
-  &__item{
+  &__item {
       color: white;
-      //height: 33%;
       margin-bottom: 2rem;
       margin-top: 1.5rem;
-
-    &-header{
+    &-header {
       text-transform: uppercase;
       font-family: Montserrat;
       font-size: 1.4rem;
@@ -31,31 +28,25 @@ html{
       color: white;
       margin-bottom: 1rem;
      }
-     &-content{
+     &-content {
        display: none;
-      //text-transform: capitalize;
        &::after{
          content: '';
        }
     }
-
   }
-
-  &__content{
-    &-text{
+  &__content {
+    &-text {
       font-family: monospace;
       font-size: 1.4rem;
       color: #bbbbbb;
       margin: 1.2rem 0;
     }
   }
-
 }
-
-.active{
+.active {
   display: block;
 }
-
 .footer__content-text:hover {
   color: #bb77ff;
 }
